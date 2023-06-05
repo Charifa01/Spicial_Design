@@ -3,7 +3,7 @@
 let myArray = ['../imgs/img1.jpeg','../imgs/img2.png','../imgs/img3.jpeg','../imgs/img4.jpeg','../imgs/img5.jpeg'];
 let landing = document.querySelector(".landing");
 let backgroundImg ;
-let randomOption = true;
+let randomOption = false;
 
 function randomImages(){
     if(randomOption == true){
